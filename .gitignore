@@ -61,4 +61,4 @@ typings/
 .next
 
 # docker volumenes
-DB
+/DB

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./bin/www",
+    "dev": "nodemon --legacy-watch ./bin/www",
     "start": "node ./bin/www",
     "prod": "pm2 start ./bin/www"
   },
@@ -30,8 +30,10 @@
   },
   "dependencies": {
     "body-parse": "^0.1.0",
+    "chalk": "^4.1.0",
     "express": "^4.17.1",
     "mysql2": "^2.2.5",
+    "pg": "^8.5.1",
     "sequelize": "^6.3.5"
   }
 }
